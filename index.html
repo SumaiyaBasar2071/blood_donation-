@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>            
+        * {
+          box-sizing:border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: rgb(229, 214, 196);
+        }
+
+        header {
+            background-color: rgb(138, 12, 12);
+          padding: 20px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+          font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: pink;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: whitesmoke;
+  height: 300px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+  background-color: rgb(138, 12, 12);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
+
+
+</head>
+<body>
+  <header style=" background-color: rgb(229, 214, 196); height: 20px;background-image: url(imageforassignment/last1.webp); background-attachment: fixed;"><h4 style="text-align:center; font-style: italic; color: black;">Jahangirnagar University Blood Donor's Organization</h4></header>
+    <header style="background-color: rgb(229, 214, 196);background-image: url(imageforassignment/last1.webp); background-attachment: fixed;"><h5 style="text-align:center; font-style: italic; color: black;" >&#129505Give Blood,Save Lives&#129505</h5></header>
+    
+
+        <section>
+            <nav style="background-image: url(imageforassignment/bg.webp);"><p style="color: white; font-weight: bolder; text-align: end; font-size: larger;"><br>
+                <br> <br> <br> <br> <br> <br> <br> Be a Life saver for someone,Donate BLOOD</p></nav>
+            <article>
+                <h3 style="color: rgb(15, 15, 15); font-weight: bolder;font-family: 'Times New Roman', Times, serif; text-align: center; font-style: italic;">Donate Blood And Save Lives <span>&#128071;&#127997;</span></h3>
+                <p style="font-family: 'Times New Roman', Times, serif; color: black; font-style: italic;">Safe blood saves lives. Blood is needed by women with complications during pregnancy and childbirth, children with severe anaemia, often resulting from malaria or malnutrition, accident victims and surgical and cancer patients.</p>
+                <p style="font-family: 'Times New Roman', Times, serif; color: black; font-style: italic;">There is a constant need for a regular supply of blood because it can be stored only for a limited period of time before use. Regular blood donation by a sufficient number of healthy people is needed to ensure that blood will always be available whenever and wherever it is needed.</p>
+                <p style="font-family: 'Times New Roman', Times, serif; color: black; font-style: italic;">Blood is the most precious gift that anyone can give to another person – the gift of life.</p>
+            </article>
+        </section>
+        <footer style="background-color: rgb(229, 214, 196); background-image: url(imageforassignment/last1.webp);  ">
+            <h3 style="text-align: start; color: black;">New to Blood Donation?</h3>
+    
+                <p style="text-align: start;color: black; ">We answer the most frequently asked questions in the "Be a Hero Donor" web page.<br>
+                 Enter your information to learn the truth about some blood donation myths and how you can help some beautiful lives.
+
+            </p>
+          
+            <form action="2nd_index.html" style="font-family: 'Times New Roman', Times, serif; color: black; border: solid black; text-align: start;padding: 20px;  font-size: medium;width: 80%;background-color: rgb(229, 214, 196);">
+                <h3 style="text-align: start;">Please fill up the following information </h3>
+                
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="type your first name" style="width: 40%; height: 40px; border: solid black;"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="type your last name" style="width: 40%; height: 40px; border: solid black;" ><br><br>
+
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br><br>
+
+                <label for="birthday">Birthday:</label><br>
+  <input type="date" id="birthday" name="birthday" style="width: 20%; height: 40px; border: solid black;"><br><br>
+
+  <label for="occup">Occupation:</label><br>
+                <input type="text" id="occup" name="occup" placeholder="type your occupation" style="width: 20%; height: 40px; border: solid black;"><br><br>
+  
+
+
+                
+                <label for="blood_group">Blood Group:</label><br>
+                <input type="text" id="blood_group" name="blood_group" placeholder="type your blood group" style="width: 20%; height: 40px; border: solid black;"><br><br>
+
+                <label for="weight">Weight:</label><br>
+                <input type="text" id="weight" name="weight" placeholder="type your weight" style="width: 20%; height: 40px; border: solid black;"><br><br>
+
+                <p>Did you ever donate blood before?</p>
+                <input type="radio" id="Yes" name="options" value="YES">
+                <label for="Yes">YES</label><br>
+                <input type="radio" id="No" name="options" value="NO">
+                <label for="No">NO</label><br>
+
+                <p>Do you have allergies?</p>
+                <input type="radio" id="Yes" name="options" value="YES">
+                <label for="Yes">YES</label><br>
+                <input type="radio" id="No" name="options" value="NO">
+                <label for="No">NO</label><br>
+
+<p>Do you suffer of any diseases?</p>
+<input type="radio" id="Yes" name="options" value="YES">
+                <label for="Yes">YES</label><br>
+<input type="radio" id="No" name="options" value="NO" >
+                <label for="No">NO</label><br><br>
+
+            <p>Is there any history of surgery or blood transfusion last six months?</p>
+                <input type="radio" id="major" name="surgery" value="Major">
+                <label for="major">Major</label><br>
+                <input type="radio" id="minor" name="surgery" value="Minor">
+                <label for="minor">Minor</label><br>
+               <input type="radio" id="blood_trans" name="surgery" value="Blood Transfusion">
+                <label for="blood_trans">Blood Transfusion</label><br>
+<input type="radio" id="none" name="surgery" value="None of the above">
+                <label for="none">None of the above</label><br><br>
+
+
+                <label for="contact_number">Contact Number:</label><br>
+                <input type="text" id="contact_number" name="contact_number" placeholder="type your contact number" style="width: 40%; height: 40px; border: solid black;"><br><br>
+
+                <label for="email">E-mail addrress:</label><br>
+                <input type="text" id="email" name="email" placeholder="type your email" style="width: 40%; height: 40px; border: solid black;"><br><br>
+
+                
+                <label for="comment">Comment:</label><br>
+                <input type="text" id="comment" name="comment" placeholder="type your comment"  style="width: 50%; height: 200px; border: solid black; "><br><br>
+                <input type="submit" value="Submit" style="border: solid black; height: 40px; width: 100px; background-color: rgb(236, 115, 115);">
+                <p style="font-family: 'Times New Roman', Times, serif; font-style: italic;font-weight: bolder;">By submitting this form,you are agreeing our privacy policy.</p>
+              </form>
+        
+       </footer>
+
+        
+
+    
+    
+</body>
+</html>
